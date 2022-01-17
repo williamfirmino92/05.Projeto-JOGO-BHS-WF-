@@ -1,0 +1,240 @@
+
+/* Página principal e estrutua das páginas */
+
+body {
+background-image: url("img/fundo_index.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+
+}
+
+.header_h1 {
+font-size: 50px;
+text-align: center;
+padding: 20px 0 20px 0;
+color: #fff;
+font-family: 'Caveat', cursive;
+}
+
+.main_principal {
+justify-content: center;
+text-align: center;
+font-family: 'Caveat', cursive;
+}
+
+.main_principal h2 {
+color: #fff;
+font-size: 40px;
+padding: 40px 0 40px 0;
+font-family: 'Caveat', cursive;
+}
+
+.botao_escolher {
+padding: 16px 32px;
+background: #FFCE9E;
+border-radius: 4px;
+box-shadow: 0 1px 2px;
+text-transform: uppercase;
+color: #111;
+font: 600 1.125rem/1.35 "Poppins", sans-serif;
+max-width: max-content;
+border: none;
+cursor: pointer;
+margin-bottom: 20px;
+}
+
+.botao_escolher:hover {
+background-color: rgb(228, 44, 11);
+}
+
+.personagens {
+display: flex;
+flex-direction: row;
+}
+
+.personagens_caixa p {
+font-size: 28px;
+color: #fff;
+}
+
+.imagem_personagem {
+width: 600px;
+height: 800px;
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+.imagem_personagem:hover {
+width: 700px;
+height: 800px;
+}
+
+.footer {
+color: #fff;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px
+}
+
+/* Página de escolha do personagem */
+
+.botao a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+
+.botao_proximo {
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+.botao_proximo {
+padding: 16px 32px;
+background: #FFCE9E;
+border-radius: 4px;
+box-shadow: 0 1px 2px;
+text-transform: uppercase;
+color: rgb(0, 0, 0);
+font: 600 1.125rem/1.35 "Poppins", sans-serif;
+max-width: max-content;
+border: none;
+cursor: pointer;
+margin: 300px ;
+text-decoration: none;
+}
+
+
+.botao_proximo:hover {
+background-color: rgb(228, 44, 11);
+}
+
+.imagem_personagem_escolha {
+width: 600px;
+height: 800px;
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+}
+
+.personagem_p {
+font-size: 30px;
+color: #fff;
+padding-top: 180px;
+}
+
+/* Página da primeira fase */
+
+.body_fase1 {
+background-image: url("img/cemiterio.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.main_principal_fase1 {
+text-align: center;
+font-family: 'Caveat', cursive;
+}
+
+.main_principal_fase1 h2 {
+color: #fff;
+font-size: 60px;
+padding: 40px 0 40px 0;
+margin-left: 400px;
+}
+
+.personagem_p_fase1 {
+font-size: 30px;
+color: rgb(255, 255, 255);
+padding-top: 180px;
+padding-left: 50px;
+}
+
+.botao_proximo_fase1 {
+padding: 16px 32px;
+background: #FFCE9E;
+border-radius: 4px;
+box-shadow: 0 1px 2px;
+text-transform: uppercase;
+color: #111;
+font: 600 1.125rem/1.35 "Poppins", sans-serif;
+max-width: max-content;
+border: none;
+cursor: pointer;
+}
+
+.botao_proximo_fase1:hover {
+background-color: rgb(228, 44, 11);
+}
+
+/* Página da segunda fase */
+.body_fase2 {
+background-image: url("img/rio.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.imagem_monstro2 {
+width: 600px;
+height: 800px;
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+background-color: rgb(250, 248, 248);
+border: 10px solid black;
+}
+
+/* Página da terceira fase */
+.body_fase3 {
+background-image: url("img/floresta.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.imagem_monstro2 {
+width: 600px;
+height: 800px;
+-moz-transition: all 0.5s;
+-webkit-transition: all 0.5s;
+transition: all 0.5s;
+background-color: rgb(250, 248, 248);
+border: 10px solid black;
+}
+
+/* Página game over */
+
+.main_principal_gameover {
+text-align: center;
+}
+
+.body_over {
+background-image: url("img/gameover.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.imagem_gameover {
+text-align: center;
+justify-content: center;
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 80px;
+}
+
+.personagens_caixa_gameover a {
+color: rgb(5, 5, 5);
+text-decoration: none;
+}
+
+/* Página Venceu */
+
+.body_win {
+background-image: url("img/venceu.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
