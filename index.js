@@ -1,3 +1,5 @@
+/* Funções da página de escolha dos personagens */
+
 function escolha(personagem) {
   var personagem = prompt("Informe o nome do personagem: Lara, Alice ou Leonard ? ");
   if (personagem == "Lara") {
@@ -12,8 +14,9 @@ function escolha(personagem) {
   }
 }
 
+/* Funções da fase 01 */
 function escolha_fase_alice(fase) {
-  var fase = prompt("1 - Ficar e enfrentar o morto vivo"+ "<br>"+ "2 - Correr e se esconder");
+   var fase = prompt("1 - Ficar e enfrentar o morto vivo ou 2 - Correr e se esconder");
   if (fase == "1") {
     return (location = "alice_fase2.html");
   } else if (fase == "2") {
@@ -25,7 +28,7 @@ function escolha_fase_alice(fase) {
 }
 
 function escolha_fase_lara(fase) {
-  var fase = prompt("1 - Ficar e enfrentar o morto vivo"+ "<br>"+ "2 - Correr e se esconder");
+   var fase = prompt("1 - Ficar e enfrentar o morto vivo ou 2 - Correr e se esconder");
   if (fase == "1") {
     return (location = "lara_fase2.html");
   } else if (fase == "2") {
@@ -37,9 +40,9 @@ function escolha_fase_lara(fase) {
 }
 
 function escolha_fase_leo(fase) {
-  var fase = prompt("1 - Ficar e enfrentar o morto vivo"+ "<br>"+ "2 - Correr e se esconder");
+  var fase = prompt("1 - Ficar e enfrentar o morto vivo ou 2 - Correr e se esconder");
   if (fase == "1") {
-    return (location = "lara_fase2.html");
+    return (location = "leo_fase2.html");
   } else if (fase == "2") {
     return (location = "gameover.html");
   } else {
@@ -48,5 +51,76 @@ function escolha_fase_leo(fase) {
   }
 }
 
+/* Funções da fase 02 */
+function escolha_fase2_alice(fase) {
+   var fase = prompt("1 - Dar comida para o monstro ou 2 - Correr e se esconder");
+  if (fase == "1") {
+    return (location = "alice_fase3.html");
+  } else if (fase == "2") {
+    return (location = "gameover.html");
+  } else {
+    alert("Resposta incorreta!  Favor responda com 1 ou 2:");
+    escolha_fase_alice();
+  }
+}
 
+function escolha_fase2_lara(fase) {
+   var fase = prompt("1 - Dar comida para o monstro ou 2 - Correr e se esconder");
+  if (fase == "1") {
+    return (location = "lara_fase3.html");
+  } else if (fase == "2") {
+    return (location = "gameover.html");
+  } else {
+    alert("Resposta incorreta!  Favor responda com 1 ou 2:");
+    escolha_fase_alice();
+  }
+}
 
+function escolha_fase2_leo(fase) {
+   var fase = prompt("1 - Dar comida para o monstro ou 2 - Correr e se esconder");
+  if (fase == "1") {
+    return (location = "leo_fase3.html");
+  } else if (fase == "2") {
+    return (location = "gameover.html");
+  } else {
+    alert("Resposta incorreta!  Favor responda com 1 ou 2:");
+    escolha_fase_alice();
+  }
+}
+
+/* Funções da fase 03 */
+function escolha_fase3_alice(fase) {
+   var fase = prompt("1 - Lutar contra o ser desconhecido ou 2 - Correr e se esconder");
+  if (fase == "1") {
+    return (location = "gameover.html");
+  } else if (fase == "2") {
+    return (location = "venceu.html");
+  } else {
+    alert("Resposta incorreta!  Favor responda com 1 ou 2:");
+    escolha_fase_alice();
+  }
+}
+
+function escolha_fase3_lara(fase) {
+   var fase = prompt("1 - Lutar contra o ser desconhecido ou 2 - Correr e se esconder");
+  if (fase == "1") {
+    return (location = "gameover.html");
+  } else if (fase == "2") {
+    return (location = "venceu.html");
+  } else {
+    alert("Resposta incorreta!  Favor responda com 1 ou 2:");
+    escolha_fase_alice();
+  }
+}
+
+function escolha_fase3_leo(fase) {
+   var fase = prompt("1 - Lutar contra o ser desconhecido ou 2 - Correr e se esconder");
+  if (fase == "1") {
+    return (location = "gameover.html");
+  } else if (fase == "2") {
+    return (location = "venceu.html");
+  } else {
+    alert("Resposta incorreta!  Favor responda com 1 ou 2:");
+    escolha_fase_alice();
+  }
+}
