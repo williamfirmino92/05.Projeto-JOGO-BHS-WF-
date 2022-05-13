@@ -48,7 +48,7 @@ Na terceira e última fase, o personagem consegue passar pelo temido rio e chega
 ![image](https://user-images.githubusercontent.com/89873481/168281206-5f42ad66-ad4e-4e7d-8ff5-1fdb9df5afde.png)
 
 
-📌 Link do projeto no github Pages: https://williamfirmino92.github.io/02.Projeto-Adote-Aqui-WF/
+📌 Link do projeto no github Pages: https://williamfirmino92.github.io/05.Projeto-JOGO-BHS-WF-/
  
 
 
