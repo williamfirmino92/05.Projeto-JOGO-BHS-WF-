@@ -1,6 +1,6 @@
 # Projeto Resília - Brazilian Horror game
 
-O projeto é a conclusão de aprendizados do módulo II da RESÍLIA EDUCAÇÃO.  Nele, fomos orientados a estar desenvolvendo um jogo onde o usuário percorre por caminhos condicionais, ou seja, finitas possibilidades de ganhar ou perder o jogo dependendo da opção escolhida.
+O projeto é a conclusão de aprendizados do módulo I da RESÍLIA EDUCAÇÃO.  Nele, fomos orientados a estar desenvolvendo um jogo onde o usuário percorre por caminhos condicionais, ou seja, finitas possibilidades de ganhar ou perder o jogo dependendo da opção escolhida.
 
 ## 🚀 Finalidade
 
