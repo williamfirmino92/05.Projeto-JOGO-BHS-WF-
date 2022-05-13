@@ -9,7 +9,7 @@ No jogo, é possível escolher um dos personagens disponíveis ( Lara, Alice e L
 
 ## 📋 Tecnologias utilizadas
 
-🛠️No projeto, utilizei HTML5 de forma semânticam o CSS3 e o Javascript.
+🛠️No projeto, utilizei HTML5 de forma semântica, o CSS3 e o Javascript.
 <div style="display: inline_block"><br>
 <img align="center" alt="Will-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 <img align="center" alt="Will-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
